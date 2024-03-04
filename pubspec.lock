@@ -65,18 +65,16 @@ packages:
   flutter_sound_record_platform_interface:
     dependency: "direct main"
     description:
-      name: flutter_sound_record_platform_interface
-      sha256: c1efe56e241a16db5a5adb7effce3100ca1ea97e45e8b045cea2fcd603a12892
-      url: "https://pub.dev"
-    source: hosted
+      path: flutter_sound_record_platform_interface
+      relative: true
+    source: path
     version: "0.3.1"
   flutter_sound_record_web:
     dependency: "direct main"
     description:
-      name: flutter_sound_record_web
-      sha256: "7b85aab6774765b2cf7558b1a364711ba135142c0ee5f1695b25e9ff8066f298"
-      url: "https://pub.dev"
-    source: hosted
+      path: flutter_sound_record_web
+      relative: true
+    source: path
     version: "0.3.2"
   flutter_test:
     dependency: "direct dev"
@@ -156,10 +154,10 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-      sha256: "6a2128648c854906c53fa8e33986fc0247a1116122f9534dd20e3ab9e16a32bc"
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.8"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -231,4 +229,3 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.2.0-0 <4.0.0"
-  flutter: ">=2.0.0"
