@@ -4,8 +4,7 @@ version: 3.3.2
 homepage: https://github.com/josephcrowell/flutter_sound_record/
 
 environment:
-  sdk: ">=2.12.1 <4.0.0"
-  flutter: ">=2.0.2"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
