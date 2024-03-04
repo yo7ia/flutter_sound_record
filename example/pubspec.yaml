@@ -1,0 +1,33 @@
+name: example
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  just_audio: ^0.9.21
+  path_provider: ^2.0.10
+
+  flutter_sound_record:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+dependency_overrides:
+  flutter_sound_record_platform_interface:
+    path: ../flutter_sound_record_platform_interface
+  flutter_sound_record_web:
+    path: ../flutter_sound_record_web
+
+flutter:
+  uses-material-design: true
